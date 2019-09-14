@@ -34,8 +34,8 @@ while True:
         if ord('c') == 0xff & key:
             if len(faces):
                 images.append(crop.flatten())
-            count += 1
-            print("Captured : " + str(count))
+                count += 1
+                print("Captured : " + str(count))
             if count >= 10:
                 break
 
